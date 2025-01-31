@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choubik Houssam Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <a href="#about-section">Choubik Houssam</a>
+            </div>
+            <div class="right">
+                <a href="#about-section">About</a>
+                <!-- <a href="#experience-section">Experience</a> -->
+                <a href="#projects-section">Projects</a>
+                <a href="#skills-section">Skills</a>
+                <a href="#leave-message-section">Leave a Message!</a>
+            </div>
+        </nav>
+    </header>
+    <section id="about-section">
+        <h2>Hello World, I'm Houssam!</h2>
+        <div class="headshot">
+            <picture>
+                <source srcset="images/profile/profile2.jpg" type="image/jpg">
+                <img src="images/profile/profile2.jpg" alt="headshot">
+            </picture>
+        </div>
+        <div class="bio">
+            <p>
+                Hey! I'm Houssam, an engineering student at ENSAM Casablanca with a passion for informatics, AI, mechanics, electronics, and aeronautics. I thrive on exploring innovative technologies and designing creative solutions that bridge these dynamic fields.
+            </p>
+            <br>
+            <p>
+                Outside of academics and my career path, I enjoy sailing, cycling, and staying active through sports.
+            </p>
+        </div>
+        <div class="social-links">
+            <a href="https://www.instagram.com/houssam_clap/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <i class="fa-brands fa-square-youtube"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/houssam-choubik-5b4ba3316/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/HoussamCbk" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </section>
+    <div class="divider"></div>
+    <section id="projects-section">
+        <h2>Projects</h2>
+    
+        <!-- Software Projects Subsection -->
+        <div class="project-subsection">
+            <h3>Software</h3>
+            <div #swiperRef="" class="swiper card-swiper">
+                <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="https://github.com/HoussamCbk/ENSAMC-PROJECTS/tree/main/BirthdayScript" target="_blank" class="project-box">
+                        <picture>
+                            <source srcset="images/projects/birthdayscript.png" type="image/png">
+                            <img src="images/projects/birthdayscript.png" alt="Birthday Script">
+                        </picture>
+                        <h4>Birthday Script</h4>
+                        <h5><em>Python</em></h5>
+                        <p>This Python script creates a dynamic and colorful "Happy Birthday" message using ASCII art.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://github.com/HoussamCbk/ENSAMC-PROJECTS/tree/main/GraphApp" target="_blank" class="project-box">
+                        <picture>
+                            <source srcset="images/projects/graphapp.png" type="image/png">
+                            <img src="images/projects/graphapp.png" alt="GraphApp">
+                        </picture>
+                        <h4>GraphApp</h4>
+                        <h5><em>Python</em></h5>
+                        <p>This tool allows users to plot graphs based on custom datasets and domains.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://nova.ensamc.me/" target="_blank" class="project-box">
+                        <picture>
+                            <source srcset="images/webp/github issues.webp" type="image/webp">
+                            <img src="images/projects/adewebsite.png" alt="ADE Website Election">
+                        </picture>
+                        <h4>ADE Website Election</h4>
+                        <h5><em>Html, CSS, JavaScript</em></h5>
+                        <p>Simple Linktree clone designed to serve as a link hub for Nova.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://hub-aeronautics.ensamc.me/" target="_blank" class="project-box">
+                        <picture>
+                            <source srcset="images/projects/hubaeronautics.png" type="image/png">
+                            <img src="images/projects/hubaeronautics.png" alt="Hub Aeronautics">
+                        </picture>
+                        <h4>Hub Aeronautics</h4>
+                        <h5><em>Html, CSS, JavaScript</em></h5>
+                        <p>Simple Linktree clone designed to serve as a link hub for Arts & Crafts Aeronautics Club.</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="https://houssam-choubik.vercel.app/" target="_blank" class="project-box">
+                        <picture>
+                            <source srcset="images/projects/typescriptportfolio.png" type="image/png">
+                            <img src="images/projects/typescriptportfolio.png" alt="TypeScript Portfolio">
+                        </picture>
+                        <h4>TypeScript Portfolio</h4>
+                        <h5><em>TypeScript, JavaScript, CSS</em></h5>
+                        <p>A personal website made with TypeScript.</p>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Design Projects Subsection -->
+        <div class="project-subsection">
+            <h3>Design</h3>
+                <div #swiperRef="" class="swiper card-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="https://drive.google.com/file/d/1H-4F-IGLVHD1RSUsbB4rdFGfZb0NMsca/view?usp=sharing" target="_blank" class="project-box">
+                                <picture>
+                                    <source srcset="images/design/affichemun.png" type="image/png">
+                                    <img src="images/design/affichemun.png" alt="Affiche MUN">
+                                </picture>
+                                <h4>Affiche MUN</h4>
+                                <h5><em>Canva</em></h5>
+                                <p>Designed a poster for a MUN event.</p>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="https://www.figma.com/file/LbgAdL6kVLjecPz1XYQLRs/12weekyear?type=design&node-id=0-1&mode=design&t=NSBiFfataJC4wMu8-0\" target="_blank" class="project-box">
+                                <picture>
+                                    <source srcset="images/design/afficheintroduce.png" type="image/png">
+                                    <img src="images/design/afficheintroduce.png" alt="Introduce your country">
+                                </picture>
+                                <h4>Introduce your country</h4>
+                                <h5><em>Canva</em></h5>
+                                <p>Designed a poster for an university event</em>.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>    
+    <div class="divider"></div>
+    <section id="skills-section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <i class="fa-brands fa-python"></i>
+            <i class="fa-brands fa-html5"></i>
+            <i class="fa-brands fa-css"></i>
+            <i class="fa-brands fa-js"></i>
+        </div>
+    </section>
+    <div class="divider"></div>
+    <section id="leave-message-section">
+        <h2>Leave a Message!</h2>
+        <p>coming soon !</p>
+    </section>
+
+    <!-- Swiper JS -->
+    <footer>
+        <p>&copy; <span id="year"></span> Choubik Houssam. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Automatically update the copyright year
+            document.getElementById('year').textContent = new Date().getFullYear();
+    
+            // Initialize Swiper
+            const swiper = new Swiper(".card-swiper", {
+                centeredSlides: false,
+                spaceBetween: 0,
+                slidesPerView: 'auto'
+            });
+        });
+    </script>
+  </body>
+</html>
