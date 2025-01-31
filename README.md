@@ -32,4 +32,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## Contact 📧
 
-Made by [Choubik Houssam](choubikhoussam@gmail.com) - feel free to reach out!!
+Made by [Choubik Houssam](mailto:choubikhoussam@gmail.com) - feel free to reach out!!
